@@ -1,5 +1,24 @@
+
+# Build artifacts
 bin/
 obj/
+dist/
 node_modules/
-.env
+wwwroot/uploads/
+
+# VS Code
+.vscode/
+.vs/
+
+
+# User secrets and API keys
 appsettings.Development.json
+appsettings.Production.json
+
+# Environment-specific secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
